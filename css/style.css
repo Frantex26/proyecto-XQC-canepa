@@ -1,0 +1,150 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+/* ------------------------------ GLOBAL ---------------------------- */
+
+body{
+    background-color: #000000;
+    background-image: linear-gradient(180deg, #000000 25%, #ffdc00 36%, #ffdc00 53%, #000000 100%);
+}
+
+h1{
+    color: rgb(255, 255, 5);
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+h2{
+    color: rgb(255, 255, 5);
+    font-size: 30px;
+    padding: 10px;
+    display: inline;
+    border: rgb(255, 255, 253) ridge 5px;
+    background-color: black;
+    border-radius: 5%;
+}
+p{
+    color: rgb(255, 255, 123);
+    font-size: 28px;
+    padding: 10px;
+    border: rgb(255, 255, 253) ridge 2px;
+    background-color: black;
+}
+
+a i{
+    font-size: 36px;
+}
+nav{
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.navbar-brand img{
+    width: 40%;
+    border-radius: 15%;
+}
+.nav-item a{
+    font-size: 23px;
+    color: black;
+}
+
+/* ---------------- FOOTER -------------------- */
+h3{
+    color: black;
+    font-size: 20px;
+}
+h3 i{
+    padding-right: 5px;
+}
+.game{
+    padding-top: 40px;
+}
+.game img{
+    width: 200%;
+}
+.media a i{
+    font-size: 40px;
+    color: #ffdc00;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+.media{
+    border: rgb(255, 255, 253) ridge 10px;
+    background-color: black;
+    border-radius: 3%;
+    margin-bottom: 70px;
+    margin-top: 15px;
+}
+.media p{
+    border: none;
+}
+
+/* ------------------------------ INDEX ---------------------------- */
+
+.titulo-h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.titu-h2{
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.texto-1{
+    padding-top: 5px;
+}
+
+.image{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.image img{
+    width: 20%;
+}
+
+
+/* ------------------------------ HISTORY ---------------------------- */
+.felix{
+    padding-top: 20px;
+}
+.felix h2{
+    border-bottom: rgb(255, 255, 253) ridge 2px;
+}
+.overwatch h2{
+    border-bottom: rgb(255, 255, 253) ridge 2px;
+}
+.twitch h2{
+    border-bottom: rgb(255, 255, 253) ridge 2px;
+}
+
+
+/* ------------------------------ TWITCH ---------------------------- */
+.twitch-info{
+    padding-top: 20px;
+}
+.twitch-info h2{
+    border-bottom: rgb(255, 255, 253) ridge 2px;
+}
+
+
+/* ------------------------------ MEMES ---------------------------- */
+
+
+
+/* ------------------------------ SUPPORT ---------------------------- */
+.form-si{
+    font-size: 20px;
+    border: rgb(214, 193, 193) ridge 10px;
+    border-radius: 5%;
+}
+
